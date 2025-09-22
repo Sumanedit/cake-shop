@@ -1,0 +1,12 @@
+.customize-page h2 {
+  color: #f75270;
+}
+.customize-page {
+  background: #fff0f6;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #f8bbd0;
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 2rem;
+  text-align: center;
+}

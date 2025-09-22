@@ -1,0 +1,16 @@
+.hero {
+  background: linear-gradient(90deg, #f8bbd0 0%, #ffe0ef 100%);
+  color: #ad1457;
+  text-align: center;
+  padding: 3rem 1rem 2rem 1rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 13px #f8bbd0;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  font-size: 1.2rem;
+}

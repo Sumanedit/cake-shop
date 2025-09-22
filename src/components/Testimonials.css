@@ -1,0 +1,27 @@
+.testimonials h2 {
+  color: #f75270;
+}
+.testimonials {
+  background: #fff0f6;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #f8bbd0;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 2rem;
+  text-align: center;
+}
+.testimonial-list blockquote {
+  color: #ad1457;
+  font-style: italic;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid #e91e63;
+  background: #fce4ec;
+  border-radius: 8px;
+}
+.testimonial-list span {
+  display: block;
+  margin-top: 0.5rem;
+  color: #e91e63;
+  font-weight: bold;
+}
