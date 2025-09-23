@@ -11,7 +11,7 @@ import Cart from './pages/Cart';
 import Contact from './pages/Contact';
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
