@@ -12,11 +12,10 @@ import Contact from './pages/Contact';
 import './App.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HashRouter } from "react-router-dom";
+
 
 function App() {
-  return (
-    <HashRouter>
+  return ( 
     <Router>
       <div>
         <Navbar />
@@ -36,7 +35,6 @@ function App() {
         <Footer />
       </div>
     </Router>
-    </HashRouter>
   );
 }
 
