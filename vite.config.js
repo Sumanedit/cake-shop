@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/cake-shop",
+<<<<<<< HEAD
 })
+=======
+}) 
+>>>>>>> 8a36f791f1131f992e5629ee8d5db99a1eec7054
