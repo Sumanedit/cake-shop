@@ -1,7 +1,8 @@
 import React from "react";
+import './Contact.css';
 
 const Contact = () => (
-  <section className="contact-page">
+  <section className="contact-page" id="contact">
     <h2>Contact Us</h2>
     <form>
       <input type="text" placeholder="Your Name" required />

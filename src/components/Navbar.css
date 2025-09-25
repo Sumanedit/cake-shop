@@ -1,13 +1,13 @@
 .navbar {
   /* background: #f9a0cb; */
-  background: linear-gradient(90deg, #f8bbd0 0%, #ffe0ef 100%);
+  background-color: #f8bbd0;
   border-radius: 16px;
   color: #ad1457;
   position: fixed;
   width: 100%;
   z-index: 1000;
   backdrop-filter: blur(8px);
-  /* box-shadow: 0 2px 16px linear-gradient( #f8bbd0 , #ffe0ef ); */
+  box-shadow: 0 2px 13px #f8bbd0;
   transition: background 0.3s;
 }
 
@@ -60,13 +60,11 @@
   transition: transform 0.3s cubic-bezier(.4,0,.2,1);
 }
 
-.navbar-links a:hover,
-.navbar-links a:focus {
+.navbar-links a:hover{
   color: #e91e63;
 }
 
-.navbar-links a:hover::after,
-.navbar-links a:focus::after {
+.navbar-links a:hover::after{
   transform: translateX(-50%) scaleX(1);
 }
 

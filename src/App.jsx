@@ -10,11 +10,22 @@ import Customize from './pages/Customize';
 import Cart from './pages/Cart';
 import Contact from './pages/Contact';
 import './App.css';
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
+    useEffect(() => {
+    AOS.init({ 
+      duration: 800,
+      duration:800,
+      offset:250,
+     });
+  }, []);
+
   return ( 
     <Router>
       <div>
